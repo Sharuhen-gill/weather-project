@@ -1,0 +1,49 @@
+.weather-forecast {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .weather-forecast input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .weather-forecast button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .weather-forecast button:hover {
+    background-color: #0056b3;
+  }
+  
+  .weather-details {
+    margin-top: 20px;
+  }
+  
+  .forecast-details {
+    margin-top: 20px;
+  }
+  
+  .forecast-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .forecast-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
